@@ -29,5 +29,7 @@ namespace v2proCode.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<Student> Students { get; set; }
     }
 }
