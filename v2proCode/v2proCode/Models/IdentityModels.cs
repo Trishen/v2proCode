@@ -32,5 +32,7 @@ namespace v2proCode.Models
 
         public DbSet<Student> Students { get; set; }
         public DbSet<Subject> Subjects { get; set; }
+
+        public System.Data.Entity.DbSet<v2proCode.Models.Assessment> Assessments { get; set; }
     }
 }

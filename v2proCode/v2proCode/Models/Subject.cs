@@ -14,5 +14,10 @@ namespace v2proCode.Models
         [Required(ErrorMessage ="Enter a Subject Name")]
         [Display(Name ="Subject Name")]
         public string SubjectName { get; set; }
+
+        //  public virtual ICollection<Course_material> Course_Materials { get; set; }
+        //  public virtual ICollection<Subject_Report> Subject_Report { get; set; }
+        //  public virtual ICollection<Class> Class { get; set; }
+
     }
 }
